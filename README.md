@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# POS-SYSTEM-MERN-APPLICATION
+POS redefines restaurant billing with cutting-edge technology. Built on React, Node.js, MongoDB, Express, and Redux, it offers seamless order management, real-time updates, and personalized customer experiences. Stay ahead in the industry with POS.
+>>>>>>> 7f2855a9863e99717d6dd3ae17c1cba962b9deca
