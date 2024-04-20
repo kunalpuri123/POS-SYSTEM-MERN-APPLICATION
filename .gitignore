@@ -9,7 +9,6 @@
 >>>>>>> 1f5447a098ee8fcfd87472db327f16e2649a5bf1
 /.pnp
 .pnp.js
-.env
 
 # testing
 /coverage
