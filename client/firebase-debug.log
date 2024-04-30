@@ -1,0 +1,114 @@
+[debug] [2024-04-21T09:03:53.699Z] ----------------------------------------------------------------------
+[debug] [2024-04-21T09:03:53.702Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-21T09:03:53.703Z] CLI Version:   13.7.3
+[debug] [2024-04-21T09:03:53.703Z] Platform:      win32
+[debug] [2024-04-21T09:03:53.704Z] Node Version:  v18.17.0
+[debug] [2024-04-21T09:03:53.721Z] Time:          Sun Apr 21 2024 14:33:53 GMT+0530 (India Standard Time)
+[debug] [2024-04-21T09:03:53.721Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-21T09:03:53.733Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-21T09:03:53.734Z] > authorizing via signed-in user (purikunal11@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\POS-MERN
+
+[debug] [2024-04-21T09:04:16.951Z] ----------------------------------------------------------------------
+[debug] [2024-04-21T09:04:16.955Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-21T09:04:16.955Z] CLI Version:   13.7.3
+[debug] [2024-04-21T09:04:16.956Z] Platform:      win32
+[debug] [2024-04-21T09:04:16.956Z] Node Version:  v18.17.0
+[debug] [2024-04-21T09:04:16.958Z] Time:          Sun Apr 21 2024 14:34:16 GMT+0530 (India Standard Time)
+[debug] [2024-04-21T09:04:16.958Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-21T09:04:16.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-21T09:04:16.970Z] > authorizing via signed-in user (purikunal11@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\POS-MERN
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-21T09:05:14.183Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-21T09:05:15.384Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-21T09:05:15.385Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project comingsoon-afb39 (comingsoon) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-21T09:05:15.457Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/comingsoon-afb39 [none]
+[debug] [2024-04-21T09:05:16.202Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/comingsoon-afb39 200
+[debug] [2024-04-21T09:05:16.203Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/comingsoon-afb39 {"projectId":"comingsoon-afb39","projectNumber":"332445707858","displayName":"comingsoon","name":"projects/comingsoon-afb39","resources":{"hostingSite":"comingsoon-afb39"},"state":"ACTIVE","etag":"1_1726a6b0-791f-413f-95a2-a3e350be03b8"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-04-21T09:05:46.421Z] ----------------------------------------------------------------------
+[debug] [2024-04-21T09:05:46.424Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-04-21T09:05:46.425Z] CLI Version:   13.7.3
+[debug] [2024-04-21T09:05:46.426Z] Platform:      win32
+[debug] [2024-04-21T09:05:46.426Z] Node Version:  v18.17.0
+[debug] [2024-04-21T09:05:46.427Z] Time:          Sun Apr 21 2024 14:35:46 GMT+0530 (India Standard Time)
+[debug] [2024-04-21T09:05:46.427Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-21T09:05:46.438Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-21T09:05:46.439Z] > authorizing via signed-in user (purikunal11@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  G:\POS-MERN
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-21T09:05:52.814Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-21T09:05:54.246Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-21T09:05:54.247Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project posapp-95458 (posapp) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-21T09:05:57.646Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/posapp-95458 [none]
+[debug] [2024-04-21T09:05:58.842Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/posapp-95458 200
+[debug] [2024-04-21T09:05:58.843Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/posapp-95458 {"projectId":"posapp-95458","projectNumber":"450448325365","displayName":"posapp","name":"projects/posapp-95458","resources":{"hostingSite":"posapp-95458"},"state":"ACTIVE","etag":"1_6948de93-2231-4495-851b-51a5f21dbdda"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-04-21T09:06:11.452Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-04-21T09:06:12.191Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-04-21T09:06:12.191Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.11.0","browserURL":"https://www.gstatic.com/firebasejs/10.11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.11.0/firebase.tgz"},"live":{"version":"10.11","browserURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.11/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.11.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.11.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.11.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.11.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.11.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.11.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.11.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.11.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.11.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.11.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.11.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
