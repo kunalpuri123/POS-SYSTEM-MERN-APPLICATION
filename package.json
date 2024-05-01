@@ -9,8 +9,8 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "seed": "node seeder.js",
-    "build": "npm run start"
+    "seed": "node seeder.js"
+  
   },
   "author": "Kunal Puri",
   "license": "MIT",
