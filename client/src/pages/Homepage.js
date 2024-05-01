@@ -30,7 +30,7 @@ const Homepage = () => {
         const getAllItems = async () => {
             try {
                 dispatch({ type: 'SHOW_LOADING' });
-                const { data } = await axios.get('http://localhost:8080/api/items/get-item');
+                const { data } = await axios.get('https://pos-system-mern-application-1.onrender.com/api/items/get-item');
                 setItemsData(data);
             } catch (error) {
                 console.log(error);

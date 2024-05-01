@@ -12,7 +12,7 @@ const Register = () => {
   const handleSubmit = async (value) => {
     try {
       dispatch({ type: 'SHOW_LOADING' });
-      await axios.post('http://localhost:8080/api/users/register' , value);
+      await axios.post('https://pos-system-mern-application-1.onrender.com/api/users/register' , value);
       message.success('User Registered Succesfully.')
       navigate('/login');
     
