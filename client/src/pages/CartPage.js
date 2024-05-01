@@ -71,7 +71,7 @@ const CartPage = () => {
          
             };
             console.log(newObject)
-            await axios.post('http://localhost:8080/api/bills/add-bills', newObject);
+            await axios.post('https://pos-system-mern-application-1.onrender.com/api/bills/add-bills', newObject);
             
             message.success('Bill Generated');
             navigate('/bills');

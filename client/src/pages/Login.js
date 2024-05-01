@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = async (values) => {
     try {
       dispatch({ type: 'SHOW_LOADING' });
-      const res = await axios.post('http://localhost:8080/api/users/login' , values);
+      const res = await axios.post('https://pos-system-mern-application-1.onrender.com/api/users/login' , values);
       message.success('User Login Succesfully.')
       console.log(res.data)
       localStorage.setItem('auth',JSON.stringify(res.data));

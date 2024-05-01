@@ -11,7 +11,7 @@ const CustomerPage = () => {
     const getAllBills = async () => {
         try {
             dispatch({ type: 'SHOW_LOADING' });
-            const { data } = await axios.get('http://localhost:8080/api/bills/get-bills');
+            const { data } = await axios.get('https://pos-system-mern-application-1.onrender.com/api/bills/get-bills');
             setBillsData(data);
         } catch (error) {
             console.log(error);
